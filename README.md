@@ -1,14 +1,21 @@
+# Microsoft/go-eventgrid-handlers
 
-# Contributing
+This project is an Event Grid Web Hook written in Go that supports receiving event grid messages.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+The handler can be "chained" as "middle ware".
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Developer Prerequisites
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+* Go 1.11
+
+## Getting Started
+  * Clone https://github.com/Microsoft/go-eventgrid-webhook-sample
+
+## Handlers in this package
+
+  * eventgrid
+    * handler that parses the event grid "envelope" and handles validation events
+
+  * logb
+    * simple log wrapper for chaining requests
+

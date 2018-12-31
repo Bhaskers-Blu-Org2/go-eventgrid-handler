@@ -1,6 +1,6 @@
-# Microsoft/go-eventgrid-handlers
+# Microsoft/go-eventgrid-handler
 
-This project is an Event Grid Web Hook written in Go that supports receiving event grid messages.
+This project is an EventGrid web handler written in Go that supports receiving event grid messages.
 
 The handler can be "chained" as "middle ware".
 

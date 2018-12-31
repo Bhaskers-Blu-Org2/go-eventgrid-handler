@@ -9,7 +9,7 @@ The handler can be "chained" as "middle ware".
 * Go 1.11
 
 ## Getting Started
-  * Clone https://github.com/Microsoft/go-eventgrid-webhook-sample
+  * Clone <https://github.com/microsoft/go-eventgrid-webhook>
 
 ## Handlers in this package
 
